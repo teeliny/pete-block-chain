@@ -24,7 +24,6 @@ App = {
   },
 
   initWeb3: async function() {
-    console.log(window.ethereum);
     if (window.ethereum) {
       App.web3Provider = window.ethereum;
       try {
